@@ -27,7 +27,7 @@ function setDyslexic() {
     url: 'https://www.searchforjohn.com',
     name: 'dyslexia',
     value: '1',
-    domain: '.searchforjohn.com',
+    domain: 'searchforjohn.com',
     path: '/',
     secure: true,
   });
