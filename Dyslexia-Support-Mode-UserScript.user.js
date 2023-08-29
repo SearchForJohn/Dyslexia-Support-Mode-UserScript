@@ -5,7 +5,7 @@
 // @author          John Litzow
 // @installURL      https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
-// @match           https://www.searchforjohn.com/*
+// @match           *searchforjohn.com*
 // @grant           none
 // ==/UserScript==
 
