@@ -1,13 +1,12 @@
 // ==UserScript==
 // @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @version         2.1
+// @version         2.2
 // @author          John Litzow
 // @installURL      https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @match           https://www.searchforjohn.com/*
 // @grant           none
-// @run-at          document-start
 // ==/UserScript==
 
 Object.defineProperty(navigator, 'userAgent', {
