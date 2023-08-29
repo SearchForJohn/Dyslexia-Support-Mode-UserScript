@@ -1,11 +1,13 @@
 // ==UserScript==
-// @name        Dyslexia-Support-Mode-UserScript
-// @namespace   John Litzow
+// @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @match       https://*searchforjohn.com*
-// @run-at      document-start
-// @grant       none
-// @version     1
+// @version         2
+// @author          John Litzow
+// @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
+// @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
+// @match           https://www.searchforjohn.com/*
+// @grant           none
+// @run-at          document-start
 // ==/UserScript==
 
 Object.defineProperty(navigator, 'userAgent', {
