@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @version         2.3.2.0.0
+// @version         2.3.2.0.1
 // @author          John Litzow
 // @installURL      https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
@@ -30,10 +30,10 @@ function setDyslexic() {
     domain: '.searchforjohn.com',
     path: '/',
     secure: true,
-  )};
+  });
 }
 function unSetDyslexic() {
-  GM_cookie.delete({ name: 'dyslexia' },
+  GM_cookie.delete({ name: 'dyslexia' })
 };
 GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic(), "d");
 GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic());
