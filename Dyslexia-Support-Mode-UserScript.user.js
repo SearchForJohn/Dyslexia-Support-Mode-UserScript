@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @version         2.3.1.0
+// @version         2.3.1.0.1
 // @author          John Litzow
 // @installURL      https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
@@ -29,7 +29,7 @@ function unSetDyslexic() {
     var cookie_string_rm = '';
     expiration_date.setFullYear(expiration_date.getFullYear() + 1);
     // Build the set-cookie string:
-    cookie_string_rm = "dyslexia = 1; path=/; Max-Age=-99;";
+    cookie_string_rm = "dyslexia = 1; path=/; Max-Age=-1;";
     document.cookie = cookie_string_rm;
 };
 GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic(), "d");
