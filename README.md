@@ -1,0 +1,1 @@
+# Dyslexia-Support-Mode-UserScript
