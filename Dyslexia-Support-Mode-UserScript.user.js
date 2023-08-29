@@ -1,11 +1,12 @@
 // ==UserScript==
 // @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @version         2.3.0.2
+// @version         2.3.0.3
 // @author          John Litzow
 // @installURL      https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @match           *searchforjohn.com*
+// @include         *searchforjohn.com*
 // @grant           none
 // ==/UserScript==
 
