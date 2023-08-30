@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     Dyslexia-Support-Mode-UserScript
-// @version         4.1.0.6
+// @version         4.1.0.7
 // @author          John Litzow
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
@@ -49,14 +49,15 @@ function reload() {
 function styletest() {
   try {
     if (document.cookie.indexOf("dyslexic=false") === -1) {
-      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff}");
+      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff} content: { color: #ffffff; text: #ffffff} a:link { color: #ffffff; text-decoration: none; font-weight: normal; } a:visited { color: #0000ff; text-decoration: none; font-weight: normal; } a:active { color: #3399ff; text-decoration: none; } a:hover { color: #990000; text-decoration: none; font-weight: none; } p:hover, li:hover { background-color: rgba(0,0,0,.09) !important; color: #800000;} .highlight { color: #ffffff; background: inherit; font-weight: bold; }");
+      console.log("Added Custom CSS.");
     }
   } catch (e) {
     console.error("Error Setting CSS:", e);
   }
 }
 
-// init
+// Init stylesheet
 styletest();
 window.onload = styletest;
 
