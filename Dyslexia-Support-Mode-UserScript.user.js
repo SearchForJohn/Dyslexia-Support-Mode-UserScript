@@ -51,4 +51,4 @@ GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
 GM_registerMenuCommand("Reload.", reload, "r");
 
 // Set the CSS override
-GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff}");
+GM_addStyle("https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/font-data/styleshet.css");
