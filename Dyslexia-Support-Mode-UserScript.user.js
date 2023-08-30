@@ -9,6 +9,7 @@
 // @include         https://www.searchforjohn.com/*
 // @grant           GM_registerMenuCommand
 // @grant           GM_cookie
+// @grant           GM_addElement
 // ==/UserScript==
 
 //Object.defineProperty(navigator, 'userAgent', {
