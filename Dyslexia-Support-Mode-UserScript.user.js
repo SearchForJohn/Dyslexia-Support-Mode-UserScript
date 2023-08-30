@@ -2,9 +2,11 @@
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     dyslexia support script made for www.searchforjohn.com
 // @license         MIT
-// @version         4.1.0.9
+// @version         4.1.0.10
 // @author          John Litzow
 // @namespace       https://www.searchforjohn.com/
+// @homepageURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/
+// @homepageURL     https://greasyfork.org/en/scripts/474253-dyslexia-support-mode-userscript
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @match           *://www.searchforjohn.com/*
