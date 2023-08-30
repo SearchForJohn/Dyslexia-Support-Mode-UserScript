@@ -19,3 +19,4 @@ function unSetDyslexic() {
 
 GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
 GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
+
