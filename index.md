@@ -5,4 +5,3 @@ you need [TamperMonkey BETA](https://www.tampermonkey.net/) to use this, you can
 Once you have TamperMonkey BETA, [click here](https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js) to install
 
 [https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js](https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js)
-remote_theme: "dracula/gh-pages"
