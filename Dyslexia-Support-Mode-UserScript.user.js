@@ -1,13 +1,14 @@
 // ==UserScript==
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     Dyslexia-Support-Mode-UserScript
-// @version         4.1.0.0
+// @version         4.1.0.1
 // @author          John Litzow
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @match           *://www.searchforjohn.com/*
 // @include         https://www.searchforjohn.com/*
 // @grant           GM_registerMenuCommand
+// @require         https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/theme.css
 // ==/UserScript==
 
 // Enable dyslexic mode by setting a cookie and reload the page
