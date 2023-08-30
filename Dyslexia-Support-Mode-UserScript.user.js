@@ -10,10 +10,6 @@
 // @grant           GM_registerMenuCommand
 // ==/UserScript==
 
-GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
-
-GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
-
 function setDyslexic() {
   document.cookie = "dyslexic=true; SameSite=strict; expires=Fri, 31 Dec 9999 23:59:59 GMT"; console.log('Dyslexic');
 };
@@ -21,3 +17,6 @@ function unSetDyslexic() {
   document.cookie = "dyslexic=false; SameSite=strict; Max-Age=-99999999;";
   console.log('UNDyslexic');
 };
+
+GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
+GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
