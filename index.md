@@ -1,3 +1,4 @@
+remote_theme: "dracula/gh-pages"
 # Dyslexia-Support-Mode-UserScript
 you need [TamperMonkey BETA](https://www.tampermonkey.net/) to use this, you can get it [here](https://firefox.tampermonkey.net/firefox-current-beta.xpi) (equivalents should work but I won't supply any support for other extensions)
 
