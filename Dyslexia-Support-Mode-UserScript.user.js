@@ -27,7 +27,7 @@ function setDyslexic() {
 function unSetDyslexic() {
   try {
     if (document.cookie.indexOf("dyslexic=false") === -1) {
-      document.cookie = "dyslexic=false; SameSite=strict; path=/; Max-Age=-99999999;";
+      document.cookie = "dyslexic=false; SameSite=strict; path=/; expires=Fri, 31 Dec 9999 23:59:59 GMT";
       alert("Dyslexia support mode disabled. Reloading page...");
       window.location.reload();
     }
