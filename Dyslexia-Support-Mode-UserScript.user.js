@@ -11,12 +11,15 @@
 // ==/UserScript==
 
 function setDyslexic() {
-  document.cookie = "dyslexic=true; SameSite=strict; expires=Fri, 31 Dec 9999 23:59:59 GMT"; console.log('Dyslexic');
+  document.cookie = "dyslexic=true; SameSite=strict; expires=Fri, 31 Dec 9999 23:59:59 GMT"; window.location.reload();
 };
 function unSetDyslexic() {
-  document.cookie = "dyslexic=false; SameSite=strict; Max-Age=-99999999;"; console.log('UNDyslexic');
+  document.cookie = "dyslexic=false; SameSite=strict; Max-Age=-99999999;"; window.location.reload();
+};
+function reload() {
+  window.location.reload(true);
 };
 
 GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
 GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
-
+GM_registerMenuCommand("Reload.", reload, "r");
