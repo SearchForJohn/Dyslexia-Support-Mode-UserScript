@@ -49,7 +49,7 @@ function reload() {
 function styletest() {
   try {
     if (document.cookie.indexOf("dyslexic=false") === -1) {
-      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff} content: { color: #ffffff; text: #ffffff} a:link { color: #ffffff; text-decoration: none; font-weight: normal; } a:visited { color: #0000ff; text-decoration: none; font-weight: normal; } a:active { color: #3399ff; text-decoration: none; } a:hover { color: #990000; text-decoration: none; font-weight: none; } p:hover, li:hover { background-color: rgba(0,0,0,.09) !important; color: #800000;} .highlight { color: #ffffff; background: inherit; font-weight: bold; }");
+      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff} content: { color: #ffffff; text: #ffffff} a:link { color: #ffffff; text-decoration: none; font-weight: normal; } a:visited { color: #0000ff; text-decoration: none; font-weight: normal; } a:active { color: #3399ff; text-decoration: none; } a:hover { color: #990000; text-decoration: none; font-weight: none; } p:hover, li:hover { background-color: rgba(0,0,0,.09) !important; color: #800000;}");
       console.log("Added Custom CSS.");
     }
   } catch (e) {
