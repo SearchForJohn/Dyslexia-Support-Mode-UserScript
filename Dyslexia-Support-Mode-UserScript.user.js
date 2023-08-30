@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     Dyslexia-Support-Mode-UserScript
-// @version         4.1.0.5
+// @version         4.1.0.6
 // @author          John Litzow
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
@@ -45,10 +45,22 @@ function reload() {
   }
 }
 
+// Set the CSS override
+function styletest() {
+  try {
+    if (document.cookie.indexOf("dyslexic=false") === -1) {
+      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff}");
+    }
+  } catch (e) {
+    console.error("Error Setting CSS:", e);
+  }
+}
+
+// init
+styletest();
+window.onload = styletest;
+
 // Register the menu commands
 GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
 GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
 GM_registerMenuCommand("Reload.", reload, "r");
-
-// Set the CSS override
-GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff}");
