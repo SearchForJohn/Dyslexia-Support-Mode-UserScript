@@ -35,5 +35,5 @@ function setDyslexic() {
 function unSetDyslexic() {
   GM_cookie.delete({ name: 'dyslexia' })
 };
-GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic(), "d");
-GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic());
+GM_registerMenuCommand("Enable Dyslexia Support.", setDyslexic, "d");
+GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
