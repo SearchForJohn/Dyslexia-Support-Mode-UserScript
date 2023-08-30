@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     Dyslexia-Support-Mode-UserScript
-// @version         4.1.0.4
+// @version         4.1.0.5
 // @author          John Litzow
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
@@ -51,4 +51,4 @@ GM_registerMenuCommand("Disable Dyslexia Support.", unSetDyslexic, "u");
 GM_registerMenuCommand("Reload.", reload, "r");
 
 // Set the CSS override
-GM_addStyle("body { background-color: black; color: white;}");
+GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff}");
