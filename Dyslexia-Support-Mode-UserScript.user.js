@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Dyslexia-Support-Mode-UserScript
 // @description Dyslexia-Support-Mode-UserScript
-// @version         4.0.0.0
+// @version         4.0.0.1
 // @author          John Litzow
 // @downloadURL     https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
 // @updateURL       https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/Dyslexia-Support-Mode-UserScript.user.js
