@@ -2,7 +2,7 @@
 // @name            Dyslexia-Support-Mode-UserScript
 // @description     dyslexia support script made for www.searchforjohn.com
 // @license         MIT
-// @version         4.1.1.0
+// @version         4.1.1.1
 // @author          John Litzow
 // @namespace       https://www.searchforjohn.com/
 // @website         https://searchforjohn.github.io/Dyslexia-Support-Mode-UserScript/
@@ -59,7 +59,7 @@ function reload() {
 function styletest() {
   try {
     if (document.cookie.indexOf("dyslexic=false") === -1) {
-      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff} content: { color: #ffffff; text: #ffffff} a:link { color: #ffffff; text-decoration: none; font-weight: normal; } a:visited { color: #0000ff; text-decoration: none; font-weight: normal; } a:active { color: #3399ff; text-decoration: none; } a:hover { color: #FFFFFF; text-decoration: none; font-weight: none; } p:hover, li:hover { background-color: rgba(0,0,0,.09) !important; color: #800000;}");
+      GM_addStyle("body { background-color: #222428; color: #ffffff; text: #ffffff} content: { color: #ffffff; text: #ffffff} a:link { color: #ffffff; text-decoration: none; font-weight: normal; } a:visited { color: #0000ff; text-decoration: none; font-weight: normal; } a:active { color: #3399ff; text-decoration: none; } a:hover { color: #FFFFFF; text-decoration: none; font-weight: none; } p:hover, li:hover { background-color: rgba(0,0,0,.09) !important; color: #FFFFFF;}");
       console.log("Added Custom CSS.");
     }
   } catch (e) {
